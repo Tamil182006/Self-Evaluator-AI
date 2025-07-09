@@ -9,9 +9,9 @@ export async function evaluateIntro(userIntro) {
     });
 
     const data = await response.json();
-    return data.result || "❌ No output from Gemini.";
+    return data.result || " No output from Gemini.";
   } catch (err) {
-    console.error("❌ Frontend API Error:", err);
-    return "❌ Request failed.";
+    console.error("Frontend API Error:", err);
+    return " Request failed.";
   }
 }
