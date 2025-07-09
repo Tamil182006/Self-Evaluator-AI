@@ -53,7 +53,7 @@ function App() {
 
       {loading && (
         <div className="text-center mt-4 text-blue-600 font-semibold">
-          ⏳ Evaluating your self-intro...
+          Evaluating your self-intro...
         </div>
       )}
 
@@ -66,7 +66,7 @@ function App() {
           </p>
 
           <div className="mt-4">
-            <strong>✅ Strengths:</strong>
+            <strong>Strengths:</strong>
             <ul className="list-disc list-inside text-green-700">
               {result.strengths.map((s, idx) => (
                 <li key={idx}>{s}</li>
@@ -75,7 +75,7 @@ function App() {
           </div>
 
           <div className="mt-4">
-            <strong>⚠️ Weaknesses:</strong>
+            <strong> Weaknesses:</strong>
             <ul className="list-disc list-inside text-red-700">
               {result.weaknesses.map((w, idx) => (
                 <li key={idx}>{w}</li>
@@ -84,7 +84,7 @@ function App() {
           </div>
 
           <div className="mt-4">
-            <strong>💡 Tips to Improve:</strong>
+            <strong> Tips to Improve:</strong>
             <ul className="list-disc list-inside text-blue-700">
               {result.tips.map((t, idx) => (
                 <li key={idx}>{t}</li>
