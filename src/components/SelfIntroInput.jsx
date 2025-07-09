@@ -1,4 +1,4 @@
-// src/components/SelfIntroInput.jsx
+
 import { useState } from 'react';
 
 function SelfIntroInput({ onSubmit }) {
@@ -12,7 +12,7 @@ function SelfIntroInput({ onSubmit }) {
 
   return (
     <div className="p-4 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">🎤 Self-Intro Evaluator</h1>
+      <h1 className="text-2xl font-bold mb-4"> Self-Intro Evaluator</h1>
       <textarea
         className="w-full h-40 p-3 border rounded-lg mb-4"
         placeholder="Paste or type your self-introduction here..."
